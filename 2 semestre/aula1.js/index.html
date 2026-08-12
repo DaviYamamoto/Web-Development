@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulação do DOM e Eventos</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <main class="container">
+        <h1>Minha lista de Tarefas (DOM e EVENTOS)</h1>
+        <!-- Formulário de Entrada -->
+         <form id="formTarefa" class="form-box">
+            <input
+                type="text"  
+                id="inputTarefa"
+                placeHolder = "Digite uma nova tarefa..."
+                autocomplete="off"
+                >
+                <button type="submit" id="btnAdicionar">Adicionar</button>
+         </form>
+         <p id="mensagemErro" class="erro"></p>
+         <!-- Container onde as tarefas serão inseridas via DOM -->
+          <ul id="ListaTarefas" class="tarefas-list">
+            <!-- Os itens <li> serão inseridos dinamicamente pelo JavaScript -->
+          </ul>
+    </main>
+    <!-- Importação do Arquivo JS -->
+     <script src="js/app.JS"></script>
+</body>
+</html>

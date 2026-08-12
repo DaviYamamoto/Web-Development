@@ -1,0 +1,33 @@
+/* Estilização básica do corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f2f5;
+}
+
+/* O card que contém nosso elementos */
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    /* Transição suave para o efeito do hover */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Efeito de trazer para frente ao passar o mouse(hover) */
+.container:hover {
+    transform: scale(1.05) translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo do número do contador */
+#display {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #007bff;
+}
