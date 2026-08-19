@@ -1,0 +1,6 @@
+Projeto que será realizado ao longo do segundo semestre em sala de aula
+Professor: Luiz Roberto
+
+Ferramentas:
+    HTML, CSS, JavaScript, TypeScript, NodeJS, Vite
+
